@@ -25,7 +25,7 @@ class TodoForm extends Component {
     }
 
     render() {
-        const {add, search, description} = this.props
+        const {add, description} = this.props
         return (
             <div role="form" className="todoForm">
                 <div className="row">
